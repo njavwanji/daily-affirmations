@@ -228,7 +228,7 @@ window.onload = function () {
 var newQuoteButton = document.querySelector('.new-quote');
 
 function getQuote() {
-    var randomQuote = affirmations[Math.floor(Math.random() * 218)];
+    var randomQuote = affirmations[Math.floor(Math.random() * (affirmations.length))];
     if ('newQuoteButton === true') {
         document.querySelector('.quote-text').textContent = randomQuote;
         document.querySelector('.quote-text').style.background = '#ffffff';
