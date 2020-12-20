@@ -1,0 +1,176 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f5f2;
+}
+
+h1 {
+    /* color: #dcbcc4; */
+    color: #f1b150;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 3;
+    line-height: 1.05;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 55px;
+}
+
+h4 {
+    /* color: #f1b150; */
+    /* color: #dcbcc4; */
+    color: #7c7575;
+    font-family: 'Stalemate', cursive;
+    font-size: 2.9rem;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    bottom: 182px;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #f1b150;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #f9f5f2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 42.5%;
+    letter-spacing: 1px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+}
+
+.button:hover {
+    border: 2px solid #f1b150;
+    color: #f1b150;
+    background-color: #ffffff;
+    border-radius: 50px;
+    /* color: #cfd3ce; */
+}
+
+.container {
+    background: repeating-linear-gradient(45deg,
+            #f9f5f2,
+            #f9f5f2 10px,
+            #f1e5e5 10px,
+            #f1e5e5 20px);
+    width: 70vw;
+    height: 50vh;
+    margin: -55px auto 50px auto;
+    position: relative;
+}
+
+.fa-heart {
+    color: #f1b150;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+blockquote {
+    color: #f1b150;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    /* font-style: italic; */
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    /* center quote to section */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.quote-text {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Smartphones (portrait) */
+
+@media (max-width: 414px) {
+    footer {
+        margin-top: -60px;
+        margin-bottom: 20px;
+    }
+    .quote-text {
+        font-size: 1.3rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    .button {
+        font-size: 1rem;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 8px;
+    }
+}
+
+/* tablets */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.95rem;
+        line-height: 1.06;
+        margin-top: 45px;
+        padding-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 1.49rem;
+        bottom: 102.5px;
+    }
+
+    .container {
+        height: 65vh;
+        width: 80vw;
+        margin-top: -30px;
+        margin-bottom: 35px;
+    }
+
+    .fa-heart {
+        font-size: 2rem;
+    }
+
+    blockquote {
+        font-size: 1.75rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+        padding: 8px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
