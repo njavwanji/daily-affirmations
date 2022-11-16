@@ -8,12 +8,11 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9f5f2;
+    background: #BDCEC6;
 }
 
 h1 {
-    /* color: #dcbcc4; */
-    color: #f1b150;
+    color: #3c4d59;
     font-family: 'Playfair Display', sans-serif;
     font-size: 6rem;
     font-weight: 300;
@@ -21,13 +20,12 @@ h1 {
     line-height: 1.05;
     text-align: center;
     margin-bottom: 0;
-    margin-top: 55px;
+    /* margin-top: 55px; */
+    margin-top: 20px;
 }
 
 h4 {
-    /* color: #f1b150; */
-    /* color: #dcbcc4; */
-    color: #7c7575;
+    color: #5C8F90;
     font-family: 'Stalemate', cursive;
     font-size: 2.9rem;
     font-weight: 200;
@@ -37,11 +35,61 @@ h4 {
     margin-bottom: 0;
 }
 
+
+.container {
+    background: repeating-linear-gradient(45deg,
+            #BDCEC6,
+            #BDCEC6 10px,
+            #efefef 10px,
+            #efefef 20px);
+    width: 70vw;
+    /* height: 50vh; */
+    height: 55vh;
+    /* margin: -55px auto 50px auto; */
+    margin: -70px auto 50px auto;
+    position: relative;
+}
+
+blockquote {
+    color: #5C8F90;
+    /* dashed border in js file; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+    /* font-style: italic; */
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    padding-left: 1rem;
+    /* center quote to section */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.quote-text {
+    padding: 10px 20px 10px 20px;
+    /* background colour of quote in js file */
+}
+
+.fa-heart {
+    color: #3c4d59;
+    font-size: 2.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 button {
-    background-color: #f1b150;
-    border: 2px solid #ffffff;
+    background-color: #3c4d59;
+    border: 2px solid #3c4d59;
     border-radius: 50px;
-    color: #f9f5f2;
+    color: #BDCEC6;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
@@ -56,55 +104,11 @@ button {
 }
 
 .button:hover {
-    border: 2px solid #f1b150;
-    color: #f1b150;
-    background-color: #ffffff;
+    border: 2px solid #3c4d59;
+    color: #3c4d59;
+    background-color: #BDCEC6;
     border-radius: 50px;
     /* color: #cfd3ce; */
-}
-
-.container {
-    background: repeating-linear-gradient(45deg,
-            #f9f5f2,
-            #f9f5f2 10px,
-            #f1e5e5 10px,
-            #f1e5e5 20px);
-    width: 70vw;
-    height: 50vh;
-    margin: -55px auto 50px auto;
-    position: relative;
-}
-
-.fa-heart {
-    color: #f1b150;
-    font-size: 2.2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-blockquote {
-    color: #f1b150;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.55rem;
-    /* font-style: italic; */
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 1.75;
-    letter-spacing: 1px;
-    padding-left: 1rem;
-    /* center quote to section */
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.quote-text {
-    padding: 10px;
 }
 
 footer {
