@@ -53,7 +53,7 @@ var affirmations = [
     'Anything is possible for me.',
     'What I see with my heart, I will see with my eyes.',
     'Not everything that weighs me down is mine to carry.',
-    'As long as I know who I am and what makes me happy, it does not matter how others see me.',
+    'As long as I know who I am and what makes me happy, it doesn’t matter how others see me.',
     'I honour my commitments to myself.',
     'Happiness is a choice.',
     'I nurture myself so that I can nurture others.',
@@ -75,7 +75,7 @@ var affirmations = [
     'I do not need someone else to feel happiness.',
     'I am allowed to take the time to heal.',
     'My imperfections make me unique.',
-    'I am allowed to make mistakes; they do not make up my whole story.',
+    'I am allowed to make mistakes; they don’t make up my whole story.',
     'My potential to succeed is limitless.',
     'Difficult times are part of my journey and allow me to appreciate the good.',
     'I forgive those who have hurt me.',
@@ -136,7 +136,7 @@ var affirmations = [
     'Creative energy surges through me and leads me to new and brilliant ideas.',
     'Happiness is a choice. I base my happiness on my own accomplishments and the blessings I have been given.',
     'My ability to conquer my challenges is limitless; my potential to succeed is infinite.',
-    'I deserve to be employed and paid well for my time, efforts and ideas. Each day, I am closer to finding the perfect job for me.',
+    'I deserve to be employed and paid well for my time, efforts, and ideas. Each day, I am closer to finding the perfect job for me.',
     'My thoughts are filled with positivity and my life is plentiful with prosperity.',
     'Today, I abandon my old habits and take up new, more positive ones.',
     'I choose to align my actions with my intentions.',
@@ -200,7 +200,7 @@ var affirmations = [
     'All is well and good in my life.',
     'Peace begins in me.',
     'I appreciate and acknowledge all of me.',
-    'I allow my true to flourish.',
+    'I allow my true self to flourish.',
     'I appreciate everything I have.',
     'Prosperity flows through me at all times.',
     'I am safe; divinely guided and protected.',
@@ -220,8 +220,9 @@ var affirmations = [
 ]
 
 window.onload = function () {
-    // hide button outline on first click
+    // hide button outline and quote border on first click
     document.querySelector('button').style.outline = 'none';
+    document.querySelector('blockquote').style.border = 'none';
 }
 
 // generate random quote each time the newQuoteButton is clicked
@@ -231,8 +232,10 @@ function getQuote() {
     var randomQuote = affirmations[Math.floor(Math.random() * (affirmations.length))];
     if ('newQuoteButton === true') {
         document.querySelector('.quote-text').textContent = randomQuote;
-        document.querySelector('.quote-text').style.background = '#ffffff';
+        document.querySelector('.quote-text').style.background = '#efefef';
         document.querySelector('button').style.outline = 'none';
+        document.querySelector('blockquote').style.border = '1px dashed #3c4d59';
+
     }
 }
 
