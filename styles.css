@@ -8,11 +8,11 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background: #BDCEC6;
+    background: #4b0082;
 }
 
 h1 {
-    color: #3c4d59;
+    color: #17f0b8;
     font-family: 'Playfair Display', sans-serif;
     font-size: 6rem;
     font-weight: 300;
@@ -25,7 +25,7 @@ h1 {
 }
 
 h4 {
-    color: #5C8F90;
+    color: #d3ea21;
     font-family: 'Stalemate', cursive;
     font-size: 2.9rem;
     font-weight: 200;
@@ -38,10 +38,10 @@ h4 {
 
 .container {
     background: repeating-linear-gradient(45deg,
-            #BDCEC6,
-            #BDCEC6 10px,
-            #efefef 10px,
-            #efefef 20px);
+            #4b0082,
+            #4b0082 10px,
+            #bea9f7 10px,
+            #bea9f7 20px);
     width: 70vw;
     /* height: 50vh; */
     height: 55vh;
@@ -51,7 +51,7 @@ h4 {
 }
 
 blockquote {
-    color: #5C8F90;
+    color: #4b0082;
     /* dashed border in js file; */
     font-family: 'Poppins', sans-serif;
     font-size: 1.55rem;
@@ -77,7 +77,7 @@ blockquote {
 }
 
 .fa-heart {
-    color: #3c4d59;
+    color: #d3ea21;
     font-size: 2.2rem;
     position: absolute;
     top: 50%;
@@ -86,10 +86,10 @@ blockquote {
 }
 
 button {
-    background-color: #3c4d59;
-    border: 2px solid #3c4d59;
+    background-color: #17f0b8;
+    border: 2px solid #4b0082;
     border-radius: 50px;
-    color: #BDCEC6;
+    color: #4b0082;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
@@ -104,15 +104,16 @@ button {
 }
 
 .button:hover {
-    border: 2px solid #3c4d59;
-    color: #3c4d59;
-    background-color: #BDCEC6;
+    border: 2px solid #17f0b8;
+    color: #17f0b8;
+    background-color: #4b0082;
     border-radius: 50px;
     /* color: #cfd3ce; */
 }
 
 footer {
     text-align: center;
+    color: #bea9f7;
 }
 
 /* Smartphones (portrait) */
