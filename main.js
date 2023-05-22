@@ -1,4 +1,4 @@
-// 170 Daily Affirmations
+// 217 Daily Affirmations
 var affirmations = [
     'I am kind.',
     'I am powerful.',
@@ -67,7 +67,7 @@ var affirmations = [
     'I deserve to have joy in my life.',
     'I am worthy of love.',
     'I approve of myself and love myself deeply.',
-    'My body is healthy, and I’m grateful.',
+    'My body is healthy, and I am grateful.',
     'I am more at ease every day.',
     'I am calm, happy and content.',
     'My life is a gift and I appreciate everything I have.',
@@ -75,7 +75,7 @@ var affirmations = [
     'I do not need someone else to feel happiness.',
     'I am allowed to take the time to heal.',
     'My imperfections make me unique.',
-    'I am allowed to make mistakes; they don’t make up my whole story.',
+    'I am allowed to make mistakes; they do not make up my whole story.',
     'My potential to succeed is limitless.',
     'Difficult times are part of my journey and allow me to appreciate the good.',
     'I forgive those who have hurt me.',
@@ -232,9 +232,9 @@ function getQuote() {
     var randomQuote = affirmations[Math.floor(Math.random() * (affirmations.length))];
     if ('newQuoteButton === true') {
         document.querySelector('.quote-text').textContent = randomQuote;
-        document.querySelector('.quote-text').style.background = '#efefef';
+        document.querySelector('.quote-text').style.background = '#d3ea21';
         document.querySelector('button').style.outline = 'none';
-        document.querySelector('blockquote').style.border = '1px dashed #3c4d59';
+        document.querySelector('blockquote').style.border = '1px dashed #4b0082';
 
     }
 }
